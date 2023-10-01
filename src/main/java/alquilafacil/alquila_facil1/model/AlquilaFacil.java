@@ -2,6 +2,7 @@ package alquilafacil.alquila_facil1.model;
 
 
 import alquilafacil.alquila_facil1.exception.AlquilaException;
+import javafx.scene.control.Alert;
 import lombok.Getter;
 
 
@@ -57,7 +58,7 @@ public class AlquilaFacil {
         return alquilaFacil;
     }
 
-    public Cliente registrarCliente(String cedula, String nombreCompleto,String email,String direccion,String ciudad,String telefono) throws  AlquilaException {
+    public Cliente registrarCliente( String nombre,String cedula,String correo,String direccion,String ciudad,String telefono) throws  AlquilaException {
 
         if(cedula == null || cedula.isBlank()){
             LOGGER.log( Level.WARNING, "La cédula es obligatoria para el registro" );
@@ -72,9 +73,10 @@ public class AlquilaFacil {
         //Demás validaciones
 
         Cliente cliente = Cliente.builder()
+
+                .nombre(nombre)
                 .cedula(cedula)
-                .nombreCompleto(nombreCompleto)
-                .email(email)
+                .correo(correo)
                 .direccion(direccion)
                 .ciudad(ciudad)
                 .telefono(telefono)
@@ -145,6 +147,12 @@ public class AlquilaFacil {
         return null;
     }
 
+    public static void mensajeAlerta(String titulo, String mensaje) {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle(titulo);
+        alert.setContentText(mensaje);
+        alert.showAndWait();
+    }
 
 
 }

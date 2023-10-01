@@ -9,9 +9,10 @@ import lombok.*;
 @Builder
 public class Cliente {
 
+
+    private String nombre;
     private String cedula;
-    private String nombreCompleto;
-    private String email;
+    private String correo;
     private String direccion;
     private String ciudad;
     private String telefono;

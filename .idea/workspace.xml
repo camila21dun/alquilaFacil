@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97ec26-5000-4478-9a7e-2d20fb4f6605" name="Changes" comment="2da">
-      <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/proyectoPruebaBanco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/ws/ProyectoBancoPrueba/ProyectoBancoPrueba.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/ws/ws.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/InicioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/InicioController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroClientesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroClientesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroVehiculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroVehiculosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/AlquilaFacil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/AlquilaFacil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/listaVehiculos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/listaVehiculos.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -51,6 +47,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO WINDOWS/eclipseNeon/alquilaFacil-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,7 +80,18 @@
       <workItem from="1696140694065" duration="152000" />
       <workItem from="1696179056776" duration="6433000" />
       <workItem from="1696188606605" duration="5761000" />
+      <workItem from="1696194610200" duration="1987000" />
+      <workItem from="1696199314166" duration="1028000" />
     </task>
+    <task id="LOCAL-00001" summary="2da">
+      <option name="closed" value="true" />
+      <created>1696194669711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696194669711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

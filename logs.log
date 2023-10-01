@@ -18,3 +18,29 @@ oct. 01, 2023 3:40:43 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil regi
 INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: cecikwjhcfk
 oct. 01, 2023 3:52:37 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil <init>
 INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 01, 2023 4:28:42 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 01, 2023 4:31:33 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: maria
+oct. 01, 2023 4:35:24 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 01, 2023 4:35:38 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 7777
+oct. 01, 2023 4:35:49 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+GRAVE: La cédula 7777 es obligatoria para el registro del cliente
+oct. 01, 2023 4:35:55 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 8
+oct. 01, 2023 4:37:11 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 01, 2023 4:37:18 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 123
+oct. 01, 2023 4:37:36 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+GRAVE: La cédula 123 es obligatoria para el registro del cliente
+oct. 01, 2023 4:37:44 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 45
+oct. 01, 2023 5:37:55 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil <init>
+INFORMACIÓN: Se crea una nueva instancia de AlquilaFacil
+oct. 01, 2023 5:38:45 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 123456789
+oct. 01, 2023 5:39:42 P. M. alquilafacil.alquila_facil1.model.AlquilaFacil registrarCliente
+INFORMACIÓN: Se ha registrado un nuevo cliente con la cédula: 987654321

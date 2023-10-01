@@ -61,31 +61,66 @@ public class RegistroClientesController {
 
     private void registroClienteAction() {
 
-        try {
-            Cliente cliente = alquilaFacil.registrarCliente(
+        String nombre =  txtNombreCliente.getText();
+        String cedula =  txtCedulaCliente.getText();
+        String correo =  txtCorreoCliente.getText();
+        String direecion =  txtDireccionCliente.getText();
+        String ciudad =     txtCiudadCliente.getText();
+        String telefono =   txtTelefonoCliente.getText();
+        if(verificarCampos(nombre,cedula,correo,direecion,ciudad,telefono)) {
 
-                    txtNombreCliente.getText(),
-                    txtCedulaCliente.getText(),
-                    txtCorreoCliente.getText(),
-                    txtDireccionCliente.getText(),
-                    txtCiudadCliente.getText(),
-                    txtTelefonoCliente.getText());
+            try {
+                Cliente cliente = new Cliente(nombre,cedula,correo,direecion,ciudad,telefono);
+                alquilaFacil.registrarCliente(nombre,cedula,correo,direecion,ciudad,telefono);
 
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setHeaderText(null);
-            alert.setContentText("Se ha registrado correctamente el cliente "+cliente.getNombreCompleto());
-            alert.show();
 
-        } catch (AlquilaException e) {
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setHeaderText(null);
+                alert.setContentText("Se ha registrado correctamente el cliente " + cliente.getNombre());
+                alert.show();
+                limpiarTexto();
 
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setContentText(e.getMessage());
-            alert.setHeaderText(null);
-            alert.show();
+            } catch (AlquilaException e) {
+
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setContentText(e.getMessage());
+                alert.setHeaderText(null);
+                alert.show();
+
+            }
+        }else {
+
+            AlquilaFacil.mensajeAlerta("Error", "Completa los campos faltantes");
 
         }
 
     }
+
+    private boolean verificarCampos(String nombre, String cedula, String correo, String direccion, String ciudad, String teleono) {
+
+        if (nombre.equals("")){
+            return false;
+        }
+        if (cedula.equals("")){
+            return false;
+        }
+        if (correo.equals("")){
+            return false;
+        }if (direccion.equals("")){
+            return false;
+        }
+        if (ciudad.equals("")){
+            return false;
+        }
+        if (teleono.equals("")){
+            return false;
+        }
+        return true;
+    }
+
+
+
+
 
     @FXML
     void volverEvent(ActionEvent event) {
@@ -99,5 +134,14 @@ public class RegistroClientesController {
     }
     public void setApplication(Main main) {
         this.main=main;
+    }
+
+    private void limpiarTexto() {
+        txtNombreCliente.setText("");
+        txtCedulaCliente.setText("");
+        txtCorreoCliente.setText("");
+        txtDireccionCliente.setText("");
+        txtCiudadCliente.setText("");
+        txtTelefonoCliente.setText("");
     }
 }

@@ -120,6 +120,8 @@ public class RegistroVehiculosController {
 
     }
 
+
+
     public void setApplication(Main main) {
         this.main=main;
     }
