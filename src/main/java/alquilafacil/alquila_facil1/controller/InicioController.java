@@ -28,6 +28,7 @@ public class InicioController {
     private Button btnVerLista;
 
     private Main main;
+    ModelFactoryController modelFactoryController;
 
     @FXML
     void registrarClienteEvent(ActionEvent event) {
@@ -61,11 +62,12 @@ public class InicioController {
 
     @FXML
     void initialize() {
+    //    this.modelFactoryController = ModelFactoryController.getInstance();
     }
 
-    public void setStage(Stage primaryStage) {
+  //  public void setStage(Stage primaryStage) {
         // TODO Auto-generated method stub
-    }
+  //  }
 
         public void setApplication (Main main){
             this.main = main;

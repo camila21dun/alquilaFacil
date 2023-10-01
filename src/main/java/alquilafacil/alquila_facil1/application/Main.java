@@ -20,8 +20,6 @@ public class Main extends Application {
 
     Stage stage;
 
-  //  AlquilaFacil alquilaFacil = new AlquilaFacil();
-
     @Override
     public void start(Stage primaryStage) throws IOException {
 
@@ -37,7 +35,7 @@ public class Main extends Application {
             //Loader lee cada línea de código y la vuelve objetos en memoria
             FXMLLoader loader = new FXMLLoader();
             //Dirección del paquete donde está la interfaz
-            loader.setLocation(Main.class.getResource("../view/inicio.fxml"));
+            loader.setLocation(Main.class.getResource("/view/inicio.fxml"));
             AnchorPane rootLayout = loader.load();
             //Carga los controladores
             InicioController controller = loader.getController();//Obtenemos el controlador
@@ -58,7 +56,7 @@ public class Main extends Application {
             //Loader lee cada línea de código y la vuelve objetos en memoria
             FXMLLoader loader = new FXMLLoader();
             //Dirección del paquete donde está la interfaz
-            loader.setLocation(Main.class.getResource("../view/registroClientes.fxml"));
+            loader.setLocation(Main.class.getResource("/view/registroClientes.fxml"));
             AnchorPane rootLayout = loader.load();
             //Carga los controladores
             RegistroClientesController controller = loader.getController();//Obtenemos el controlador

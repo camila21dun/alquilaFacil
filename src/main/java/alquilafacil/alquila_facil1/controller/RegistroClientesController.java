@@ -97,8 +97,6 @@ public class RegistroClientesController {
     void initialize() {
 
     }
-
-
     public void setApplication(Main main) {
         this.main=main;
     }

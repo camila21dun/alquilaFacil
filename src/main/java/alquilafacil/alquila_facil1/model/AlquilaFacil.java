@@ -20,6 +20,7 @@ public class AlquilaFacil {
 
     private static final Logger LOGGER = Logger.getLogger(AlquilaFacil.class.getName());
 
+
     private ArrayList<Vehiculo> vehiculos;
 
     private  ArrayList<Cliente> clientes;
@@ -143,6 +144,7 @@ public class AlquilaFacil {
 
         return null;
     }
+
 
 
 }

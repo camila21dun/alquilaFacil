@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f97ec26-5000-4478-9a7e-2d20fb4f6605" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/application/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="1f97ec26-5000-4478-9a7e-2d20fb4f6605" name="Changes" comment="2da">
       <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/proyectoPruebaBanco.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/ws/ProyectoBancoPrueba/ProyectoBancoPrueba.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../proyectoPruebaBanco/ws/ws.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/InicioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/InicioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroClientesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroClientesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroVehiculosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/controller/RegistroVehiculosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/AlquilaFacil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alquilafacil/alquila_facil1/model/AlquilaFacil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/listaVehiculos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/listaVehiculos.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.39195403",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39195403&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USUARIO WINDOWS\IdeaProjects\Alquila_Facil1\src\main\resources\view" />
@@ -84,11 +81,27 @@
       <updated>1696138090523</updated>
       <workItem from="1696138091575" duration="2585000" />
       <workItem from="1696140694065" duration="152000" />
-      <workItem from="1696179056776" duration="3152000" />
+      <workItem from="1696179056776" duration="6433000" />
+      <workItem from="1696188606605" duration="5761000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2da" />
+    <option name="LAST_COMMIT_MESSAGE" value="2da" />
   </component>
 </project>
